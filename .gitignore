@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Local secrets and environment overrides
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Local databases / generated data
+*.db
+*.sqlite
+*.sqlite3
+
+# Phase 3 original recordings (may contain personal audio)
+backend/uploads/
+
+# Phase 4 local model artifacts and metadata (may be large / dataset-specific)
+backend/ml_artifacts/
+
+# Logs
+*.log
+logs/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js
+node_modules/
+dist/
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Recordings and uploaded files
+uploads/
+recordings/
+*.wav
+*.mp3
+*.webm
+
+# Generated ML artifacts
+ml_artifacts/
+*.pth
+*.pt
+*.joblib
+*.pkl
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
